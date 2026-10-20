@@ -1,0 +1,686 @@
+{
+  "store": "Demo Mart - Aisle 4, Bay 2",
+  "image_size": [
+    1280,
+    1142
+  ],
+  "scores": {
+    "planogram_compliance": 73.0,
+    "availability": 81.1,
+    "label_accuracy": 66.7,
+    "overall": 72.7,
+    "shelf_1_planogram": 71.4,
+    "shelf_2_planogram": 70.0,
+    "shelf_3_planogram": 76.9
+  },
+  "summary": "Planogram compliance 73%, availability 81%, label accuracy 67%. Overall shelf health 73/100. 10 issues (1 critical, 5 high, 4 medium). Start with: 1) Replenish about 8 units of Crunchies Cream Biscuit 120g (shelf 2, positions 4, 5). 2) Replenish about 12 units of Sunrise Orange Juice 1L (shelf 1, positions 12, 13, 14). 3) Replenish about 8 units of HoneyDrop Honey 250g (shelf 3, positions 12, 13).",
+  "issues": [
+    {
+      "type": "out_of_stock",
+      "severity": "critical",
+      "shelf": 2,
+      "position": 4,
+      "sku": "SS-2002",
+      "message": "Out of stock: Crunchies Cream Biscuit 120g has 2 of 2 facings empty (24 cm gap).",
+      "action": "Replenish about 8 units of Crunchies Cream Biscuit 120g (shelf 2, positions 4, 5).",
+      "revenue_at_risk": 240.0,
+      "box": [
+        400,
+        393,
+        640,
+        695
+      ]
+    },
+    {
+      "type": "low_stock",
+      "severity": "high",
+      "shelf": 1,
+      "position": 12,
+      "sku": "SS-1004",
+      "message": "Low stock: Sunrise Orange Juice 1L has 3 of 4 facings empty (30 cm gap).",
+      "action": "Replenish about 12 units of Sunrise Orange Juice 1L (shelf 1, positions 12, 13, 14).",
+      "revenue_at_risk": 1320.0,
+      "box": [
+        940,
+        29,
+        1240,
+        331
+      ]
+    },
+    {
+      "type": "low_stock",
+      "severity": "high",
+      "shelf": 3,
+      "position": 12,
+      "sku": "SS-3004",
+      "message": "Low stock: HoneyDrop Honey 250g has 2 of 3 facings empty (16 cm gap).",
+      "action": "Replenish about 8 units of HoneyDrop Honey 250g (shelf 3, positions 12, 13).",
+      "revenue_at_risk": 1320.0,
+      "box": [
+        1080,
+        757,
+        1240,
+        1059
+      ]
+    },
+    {
+      "type": "price_mismatch",
+      "severity": "high",
+      "shelf": 2,
+      "position": 1,
+      "sku": "SS-2001",
+      "message": "Crunchies Choco Cookies 150g: shelf price Rs 38.00 vs catalogue Rs 35.00.",
+      "action": "Correct the label to Rs 35.00.",
+      "revenue_at_risk": 0.0,
+      "box": [
+        40,
+        695,
+        214,
+        757
+      ]
+    },
+    {
+      "type": "price_mismatch",
+      "severity": "high",
+      "shelf": 2,
+      "position": 6,
+      "sku": "SS-2003",
+      "message": "Salty Bites Chips 90g: shelf price Rs 25.00 vs catalogue Rs 20.00.",
+      "action": "Correct the label to Rs 20.00.",
+      "revenue_at_risk": 0.0,
+      "box": [
+        645,
+        695,
+        814,
+        757
+      ]
+    },
+    {
+      "type": "label_mismatch",
+      "severity": "high",
+      "shelf": 3,
+      "position": 5,
+      "sku": "SS-3002",
+      "message": "Label shows 'OatKing Rolled Oats 500g' but this position is planned for CornCrisp Flakes 475g.",
+      "action": "Replace label with CornCrisp Flakes 475g (Rs 185.00).",
+      "revenue_at_risk": 0.0,
+      "box": [
+        445,
+        1059,
+        614,
+        1122
+      ]
+    },
+    {
+      "type": "misplaced",
+      "severity": "medium",
+      "shelf": 3,
+      "position": 8,
+      "sku": "SS-3004",
+      "message": "HoneyDrop Honey 250g found at position 8; planned: NutriSpread Peanut Butter 340g.",
+      "action": "Move HoneyDrop Honey 250g to shelf 3, positions 11-13 and restock NutriSpread Peanut Butter 340g here.",
+      "revenue_at_risk": 840.0,
+      "box": [
+        760,
+        757,
+        840,
+        1059
+      ]
+    },
+    {
+      "type": "misplaced",
+      "severity": "medium",
+      "shelf": 1,
+      "position": 6,
+      "sku": "SS-3003",
+      "message": "NutriSpread Peanut Butter 340g found at position 6; planned: Zest Cola Zero 500ml.",
+      "action": "Move NutriSpread Peanut Butter 340g to shelf 3, positions 7-10 and restock Zest Cola Zero 500ml here.",
+      "revenue_at_risk": 160.0,
+      "box": [
+        440,
+        29,
+        520,
+        331
+      ]
+    },
+    {
+      "type": "misplaced",
+      "severity": "medium",
+      "shelf": 2,
+      "position": 9,
+      "sku": "SS-2003",
+      "message": "Salty Bites Chips 90g found at position 9; planned: Salty Bites Masala 90g.",
+      "action": "Move Salty Bites Chips 90g to shelf 2, positions 6-8 and restock Salty Bites Masala 90g here.",
+      "revenue_at_risk": 80.0,
+      "box": [
+        1000,
+        393,
+        1120,
+        695
+      ]
+    },
+    {
+      "type": "missing_label",
+      "severity": "medium",
+      "shelf": 1,
+      "position": 8,
+      "sku": "SS-1003",
+      "message": "No shelf label for Citra Lime Soda 500ml.",
+      "action": "Print and place a label for Citra Lime Soda 500ml (Rs 40.00).",
+      "revenue_at_risk": 0.0,
+      "box": [
+        600,
+        29,
+        840,
+        331
+      ]
+    }
+  ],
+  "availability": [
+    {
+      "shelf": 1,
+      "sku": "SS-1001",
+      "name": "Zest Cola 500ml",
+      "planned_facings": 4,
+      "empty_facings": 0,
+      "status": "ok",
+      "gap_cm": 0
+    },
+    {
+      "shelf": 1,
+      "sku": "SS-1002",
+      "name": "Zest Cola Zero 500ml",
+      "planned_facings": 3,
+      "empty_facings": 0,
+      "status": "ok",
+      "gap_cm": 0
+    },
+    {
+      "shelf": 1,
+      "sku": "SS-1003",
+      "name": "Citra Lime Soda 500ml",
+      "planned_facings": 3,
+      "empty_facings": 0,
+      "status": "ok",
+      "gap_cm": 0
+    },
+    {
+      "shelf": 1,
+      "sku": "SS-1004",
+      "name": "Sunrise Orange Juice 1L",
+      "planned_facings": 4,
+      "empty_facings": 3,
+      "status": "low_stock",
+      "gap_cm": 30.0
+    },
+    {
+      "shelf": 2,
+      "sku": "SS-2001",
+      "name": "Crunchies Choco Cookies 150g",
+      "planned_facings": 3,
+      "empty_facings": 0,
+      "status": "ok",
+      "gap_cm": 0
+    },
+    {
+      "shelf": 2,
+      "sku": "SS-2002",
+      "name": "Crunchies Cream Biscuit 120g",
+      "planned_facings": 2,
+      "empty_facings": 2,
+      "status": "out_of_stock",
+      "gap_cm": 24.0
+    },
+    {
+      "shelf": 2,
+      "sku": "SS-2003",
+      "name": "Salty Bites Chips 90g",
+      "planned_facings": 3,
+      "empty_facings": 0,
+      "status": "ok",
+      "gap_cm": 0
+    },
+    {
+      "shelf": 2,
+      "sku": "SS-2004",
+      "name": "Salty Bites Masala 90g",
+      "planned_facings": 2,
+      "empty_facings": 0,
+      "status": "ok",
+      "gap_cm": 0
+    },
+    {
+      "shelf": 3,
+      "sku": "SS-3001",
+      "name": "OatKing Rolled Oats 500g",
+      "planned_facings": 4,
+      "empty_facings": 0,
+      "status": "ok",
+      "gap_cm": 0
+    },
+    {
+      "shelf": 3,
+      "sku": "SS-3002",
+      "name": "CornCrisp Flakes 475g",
+      "planned_facings": 2,
+      "empty_facings": 0,
+      "status": "ok",
+      "gap_cm": 0
+    },
+    {
+      "shelf": 3,
+      "sku": "SS-3003",
+      "name": "NutriSpread Peanut Butter 340g",
+      "planned_facings": 4,
+      "empty_facings": 0,
+      "status": "ok",
+      "gap_cm": 0
+    },
+    {
+      "shelf": 3,
+      "sku": "SS-3004",
+      "name": "HoneyDrop Honey 250g",
+      "planned_facings": 3,
+      "empty_facings": 2,
+      "status": "low_stock",
+      "gap_cm": 16.0
+    }
+  ],
+  "labels": [
+    {
+      "shelf": 1,
+      "expected_sku": "SS-1001",
+      "product_under_label": "SS-1001",
+      "label_text": "ZestCola | 40.00 | Rs",
+      "label_sku": "SS-1001",
+      "read_price": 40.0,
+      "catalogue_price": 40.0,
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "expected_sku": "SS-1002",
+      "product_under_label": "SS-1002",
+      "label_text": "ZestCola Zero | 40.00 | Rs",
+      "label_sku": "SS-1002",
+      "read_price": 40.0,
+      "catalogue_price": 40.0,
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "expected_sku": "SS-1003",
+      "product_under_label": "SS-1003",
+      "label_text": null,
+      "label_sku": null,
+      "read_price": null,
+      "catalogue_price": 40.0,
+      "status": "missing"
+    },
+    {
+      "shelf": 1,
+      "expected_sku": "SS-1004",
+      "product_under_label": "SS-1004",
+      "label_text": "Sunrise OJ1L | 110.00 | Rs",
+      "label_sku": "SS-1004",
+      "read_price": 110.0,
+      "catalogue_price": 110.0,
+      "status": "ok"
+    },
+    {
+      "shelf": 2,
+      "expected_sku": "SS-2001",
+      "product_under_label": "SS-2001",
+      "label_text": "Choco Cookies | 38.00 | Rs",
+      "label_sku": "SS-2001",
+      "read_price": 38.0,
+      "catalogue_price": 35.0,
+      "status": "wrong_price"
+    },
+    {
+      "shelf": 2,
+      "expected_sku": "SS-2002",
+      "product_under_label": null,
+      "label_text": "Cream Biscuit | 30.00 | Rs",
+      "label_sku": "SS-2002",
+      "read_price": 30.0,
+      "catalogue_price": 30.0,
+      "status": "ok"
+    },
+    {
+      "shelf": 2,
+      "expected_sku": "SS-2003",
+      "product_under_label": "SS-2003",
+      "label_text": "Salty Chips | 25.00 | Rs",
+      "label_sku": "SS-2003",
+      "read_price": 25.0,
+      "catalogue_price": 20.0,
+      "status": "wrong_price"
+    },
+    {
+      "shelf": 2,
+      "expected_sku": "SS-2004",
+      "product_under_label": "SS-2003",
+      "label_text": "Masala Chips | 20.00 | Rs",
+      "label_sku": "SS-2004",
+      "read_price": 20.0,
+      "catalogue_price": 20.0,
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "expected_sku": "SS-3001",
+      "product_under_label": "SS-3001",
+      "label_text": "OatKingOats | 120.00 | Rs",
+      "label_sku": "SS-3001",
+      "read_price": 120.0,
+      "catalogue_price": 120.0,
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "expected_sku": "SS-3002",
+      "product_under_label": "SS-3002",
+      "label_text": "OatKing Oats | 120.00 | Rs",
+      "label_sku": "SS-3001",
+      "read_price": 120.0,
+      "catalogue_price": 185.0,
+      "status": "wrong_label"
+    },
+    {
+      "shelf": 3,
+      "expected_sku": "SS-3003",
+      "product_under_label": "SS-3003",
+      "label_text": "Peanut Butter | 210.00 | Rs",
+      "label_sku": "SS-3003",
+      "read_price": 210.0,
+      "catalogue_price": 210.0,
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "expected_sku": "SS-3004",
+      "product_under_label": "SS-3004",
+      "label_text": "HoneyDrop Honey | 165.00 | Rs",
+      "label_sku": "SS-3004",
+      "read_price": 165.0,
+      "catalogue_price": 165.0,
+      "status": "ok"
+    }
+  ],
+  "slots": [
+    {
+      "shelf": 1,
+      "position": 1,
+      "expected_sku": "SS-1001",
+      "found_sku": "SS-1001",
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "position": 2,
+      "expected_sku": "SS-1001",
+      "found_sku": "SS-1001",
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "position": 3,
+      "expected_sku": "SS-1001",
+      "found_sku": "SS-1001",
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "position": 4,
+      "expected_sku": "SS-1001",
+      "found_sku": "SS-1001",
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "position": 5,
+      "expected_sku": "SS-1002",
+      "found_sku": "SS-1002",
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "position": 6,
+      "expected_sku": "SS-1002",
+      "found_sku": "SS-3003",
+      "status": "misplaced"
+    },
+    {
+      "shelf": 1,
+      "position": 7,
+      "expected_sku": "SS-1002",
+      "found_sku": "SS-1002",
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "position": 8,
+      "expected_sku": "SS-1003",
+      "found_sku": "SS-1003",
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "position": 9,
+      "expected_sku": "SS-1003",
+      "found_sku": "SS-1003",
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "position": 10,
+      "expected_sku": "SS-1003",
+      "found_sku": "SS-1003",
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "position": 11,
+      "expected_sku": "SS-1004",
+      "found_sku": "SS-1004",
+      "status": "ok"
+    },
+    {
+      "shelf": 1,
+      "position": 12,
+      "expected_sku": "SS-1004",
+      "found_sku": null,
+      "status": "empty"
+    },
+    {
+      "shelf": 1,
+      "position": 13,
+      "expected_sku": "SS-1004",
+      "found_sku": null,
+      "status": "empty"
+    },
+    {
+      "shelf": 1,
+      "position": 14,
+      "expected_sku": "SS-1004",
+      "found_sku": null,
+      "status": "empty"
+    },
+    {
+      "shelf": 2,
+      "position": 1,
+      "expected_sku": "SS-2001",
+      "found_sku": "SS-2001",
+      "status": "ok"
+    },
+    {
+      "shelf": 2,
+      "position": 2,
+      "expected_sku": "SS-2001",
+      "found_sku": "SS-2001",
+      "status": "ok"
+    },
+    {
+      "shelf": 2,
+      "position": 3,
+      "expected_sku": "SS-2001",
+      "found_sku": "SS-2001",
+      "status": "ok"
+    },
+    {
+      "shelf": 2,
+      "position": 4,
+      "expected_sku": "SS-2002",
+      "found_sku": null,
+      "status": "empty"
+    },
+    {
+      "shelf": 2,
+      "position": 5,
+      "expected_sku": "SS-2002",
+      "found_sku": null,
+      "status": "empty"
+    },
+    {
+      "shelf": 2,
+      "position": 6,
+      "expected_sku": "SS-2003",
+      "found_sku": "SS-2003",
+      "status": "ok"
+    },
+    {
+      "shelf": 2,
+      "position": 7,
+      "expected_sku": "SS-2003",
+      "found_sku": "SS-2003",
+      "status": "ok"
+    },
+    {
+      "shelf": 2,
+      "position": 8,
+      "expected_sku": "SS-2003",
+      "found_sku": "SS-2003",
+      "status": "ok"
+    },
+    {
+      "shelf": 2,
+      "position": 9,
+      "expected_sku": "SS-2004",
+      "found_sku": "SS-2003",
+      "status": "misplaced"
+    },
+    {
+      "shelf": 2,
+      "position": 10,
+      "expected_sku": "SS-2004",
+      "found_sku": "SS-2004",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 1,
+      "expected_sku": "SS-3001",
+      "found_sku": "SS-3001",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 2,
+      "expected_sku": "SS-3001",
+      "found_sku": "SS-3001",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 3,
+      "expected_sku": "SS-3001",
+      "found_sku": "SS-3001",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 4,
+      "expected_sku": "SS-3001",
+      "found_sku": "SS-3001",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 5,
+      "expected_sku": "SS-3002",
+      "found_sku": "SS-3002",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 6,
+      "expected_sku": "SS-3002",
+      "found_sku": "SS-3002",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 7,
+      "expected_sku": "SS-3003",
+      "found_sku": "SS-3003",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 8,
+      "expected_sku": "SS-3003",
+      "found_sku": "SS-3004",
+      "status": "misplaced"
+    },
+    {
+      "shelf": 3,
+      "position": 9,
+      "expected_sku": "SS-3003",
+      "found_sku": "SS-3003",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 10,
+      "expected_sku": "SS-3003",
+      "found_sku": "SS-3003",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 11,
+      "expected_sku": "SS-3004",
+      "found_sku": "SS-3004",
+      "status": "ok"
+    },
+    {
+      "shelf": 3,
+      "position": 12,
+      "expected_sku": "SS-3004",
+      "found_sku": null,
+      "status": "empty"
+    },
+    {
+      "shelf": 3,
+      "position": 13,
+      "expected_sku": "SS-3004",
+      "found_sku": null,
+      "status": "empty"
+    }
+  ],
+  "warnings": [],
+  "timings_ms": {
+    "layout": 50.5,
+    "detect": 208.6,
+    "ocr": 24191.8,
+    "total": 24450.9
+  },
+  "assumptions": [
+    "Front-facing, roughly fronto-parallel images of one planogram bay; one image/frame per bay.",
+    "Shelf-edge boards have a known, calibratable colour; the planogram gives the shelf width in cm.",
+    "Slot positions are derived from SKU widths in the catalogue; products shifted by < 50% of a slot still match.",
+    "Only front facings are visible: stock depth is assumed (4 units per facing) when estimating replenishment.",
+    "Catalogue prices are the source of truth; a price tag is OK only if SKU and price both match."
+  ]
+}
