@@ -1,0 +1,9 @@
+{
+  "store": "Demo Mart - Aisle 4, Bay 2",
+  "shelf_width_cm": 120,
+  "shelves": [
+    {"index": 1, "name": "Beverages", "items": [["SS-1001", 4], ["SS-1002", 3], ["SS-1003", 3], ["SS-1004", 4]]},
+    {"index": 2, "name": "Snacks", "items": [["SS-2001", 3], ["SS-2002", 2], ["SS-2003", 3], ["SS-2004", 2]]},
+    {"index": 3, "name": "Breakfast", "items": [["SS-3001", 4], ["SS-3002", 2], ["SS-3003", 4], ["SS-3004", 3]]}
+  ]
+}

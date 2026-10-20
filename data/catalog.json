@@ -1,0 +1,14 @@
+[
+  {"sku": "SS-1001", "name": "Zest Cola 500ml", "short_name": "Zest Cola", "category": "Beverages", "price": 40.0, "width_cm": 8, "height_cm": 22, "body": [200, 30, 40], "accent": [255, 255, 255], "mark": "ZC"},
+  {"sku": "SS-1002", "name": "Zest Cola Zero 500ml", "short_name": "Zest Cola Zero", "category": "Beverages", "price": 40.0, "width_cm": 8, "height_cm": 22, "body": [30, 30, 35], "accent": [200, 30, 40], "mark": "Z0"},
+  {"sku": "SS-1003", "name": "Citra Lime Soda 500ml", "short_name": "Citra Lime Soda", "category": "Beverages", "price": 40.0, "width_cm": 8, "height_cm": 22, "body": [60, 170, 70], "accent": [230, 240, 90], "mark": "CL"},
+  {"sku": "SS-1004", "name": "Sunrise Orange Juice 1L", "short_name": "Sunrise OJ 1L", "category": "Beverages", "price": 110.0, "width_cm": 10, "height_cm": 26, "body": [245, 150, 30], "accent": [255, 230, 150], "mark": "OJ"},
+  {"sku": "SS-2001", "name": "Crunchies Choco Cookies 150g", "short_name": "Choco Cookies", "category": "Snacks", "price": 35.0, "width_cm": 12, "height_cm": 18, "body": [95, 55, 35], "accent": [230, 180, 90], "mark": "CC"},
+  {"sku": "SS-2002", "name": "Crunchies Cream Biscuit 120g", "short_name": "Cream Biscuit", "category": "Snacks", "price": 30.0, "width_cm": 12, "height_cm": 18, "body": [40, 90, 200], "accent": [240, 240, 240], "mark": "CB"},
+  {"sku": "SS-2003", "name": "Salty Bites Chips 90g", "short_name": "Salty Chips", "category": "Snacks", "price": 20.0, "width_cm": 12, "height_cm": 24, "body": [250, 210, 40], "accent": [200, 40, 40], "mark": "SC"},
+  {"sku": "SS-2004", "name": "Salty Bites Masala 90g", "short_name": "Masala Chips", "category": "Snacks", "price": 20.0, "width_cm": 12, "height_cm": 24, "body": [140, 50, 150], "accent": [250, 210, 40], "mark": "MC"},
+  {"sku": "SS-3001", "name": "OatKing Rolled Oats 500g", "short_name": "OatKing Oats", "category": "Breakfast", "price": 120.0, "width_cm": 10, "height_cm": 24, "body": [30, 140, 140], "accent": [240, 230, 200], "mark": "OK"},
+  {"sku": "SS-3002", "name": "CornCrisp Flakes 475g", "short_name": "CornCrisp Flakes", "category": "Breakfast", "price": 185.0, "width_cm": 12, "height_cm": 28, "body": [235, 110, 160], "accent": [255, 255, 255], "mark": "CF"},
+  {"sku": "SS-3003", "name": "NutriSpread Peanut Butter 340g", "short_name": "Peanut Butter", "category": "Breakfast", "price": 210.0, "width_cm": 8, "height_cm": 14, "body": [200, 130, 50], "accent": [60, 40, 30], "mark": "PB"},
+  {"sku": "SS-3004", "name": "HoneyDrop Honey 250g", "short_name": "HoneyDrop Honey", "category": "Breakfast", "price": 165.0, "width_cm": 8, "height_cm": 16, "body": [225, 185, 60], "accent": [120, 70, 20], "mark": "HD"}
+]
